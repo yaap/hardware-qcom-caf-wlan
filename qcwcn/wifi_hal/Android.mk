@@ -202,7 +202,7 @@ LOCAL_SHARED_LIBRARIES += libnl_2
 LOCAL_C_INCLUDES += external/libnl-headers
 endif
 
-LOCAL_HEADER_LIBRARIES := libcutils_headers libutils_headers libwifi-hal-ctrl_headers libcld80211_headers
+LOCAL_HEADER_LIBRARIES := libcutils_headers libutils_headers libwifi-hal-ctrl_headers libcld80211_headers wifi_legacy_headers
 LOCAL_SANITIZE := cfi integer_overflow
 
 ifeq ($(TARGET_SUPPORTS_WEARABLES), true)
